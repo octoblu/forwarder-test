@@ -1,0 +1,35 @@
+{
+  "name": "forwarder-cli",
+  "version": "1.0.0",
+  "description": "Abusive Meshblu Client to validate rate limits",
+  "main": "index.js",
+  "bin": {
+    "abusive-meshblu-client": "./command.js",
+    "abusive-meshblu-client-socketio": "./command-socketio.js",
+    "abusive-meshblu-client-socketlogic": "./command-socketlogic.js",
+    "abusive-meshblu-client-websocket": "./command-websocket.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoblu/abusive-meshblu-client.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/abusive-meshblu-client/issues"
+  },
+  "homepage": "https://github.com/octoblu/abusive-meshblu-client#readme",
+  "dependencies": {
+    "coffee-script": "^1.9.3",
+    "commander": "^2.8.1",
+    "debug": "^2.2.0",
+    "lodash": "^3.9.3",
+    "meshblu": "^1.24.2",
+    "meshblu-config": "^2.0.0",
+    "meshblu-socket.io": "^2.0.0",
+    "meshblu-websocket": "^2.0.4"
+  }
+}
